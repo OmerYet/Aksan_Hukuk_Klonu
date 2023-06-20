@@ -1,0 +1,541 @@
+ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-decoration: none;
+    font-family: 'sofia-pro', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 14px;
+    color: #020a20;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    /* overflow:hidden; */
+}
+img{
+    max-width: 100%;
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 8887484;
+}
+.header{
+    width: 100%;
+    background: rgba(3, 15, 35, 0.836)  ;
+}
+.fs13{
+    font-size: 13px;
+}
+.wid6{
+    width: 60%;
+}
+footer{
+    width: 100% !important;
+}
+.navbarContainer{
+    width: 95% !important;
+    margin-top: 1rem;
+}
+span{
+    margin: 0;
+    padding: 0;
+}
+/* *{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+} */
+.mAu{
+    margin: auto;
+
+}
+a{
+    text-decoration: none;
+}
+.res{
+    color: #a7053b!important;
+    font-weight: bold;
+    font-size: 19px;
+}
+.speConta{
+    margin: auto;
+    width: 88%;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #2c282a!important;
+    
+}
+.row{
+    /* margin: auto; */
+    /* padding: auto; */
+    --bs-gutter-x: 0rem;
+    /* justify-content: space-between; */
+}
+.collapse-menu2 li a{
+    color: #fcfcfc;
+    text-decoration: none;
+}
+.collapse-menu2 ul{
+    list-style: none;
+}
+.collapse-menu2 li{
+    margin-right: 1rem;
+    display: inline-block;
+}
+.collapse{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.bgmain{
+    /* max-width: min-content; */
+    max-height: min-content;
+    max-height: fit-content;
+    top: 0;
+    align-content: center;
+    justify-items: center;
+    position: absolute;
+    padding-top: 2rem;
+    max-height: 100%;
+    height: 90vh;
+    /* max-width: fit-content; */
+    width: 100%;
+
+    background: #0c1822;
+    background-size: contain;
+    z-index: 2;
+    opacity: .7;
+}
+.opacity-medium{
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.bg-blue{
+    overflow: hidden;
+    background: #020a20 !important;;
+}
+.sliderParent{
+    z-index: 1;
+    position:relative;
+}
+.slider img{
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.slider{
+    background: linear-gradient(60deg, rgba(44, 38, 38, 0), rgb(17, 16, 16));
+   
+}
+.h5{
+    height: 500px;
+}
+
+/************************** Index.html ***************************/
+
+/* AKSANHAKKINDA */
+.hakkinda h3{
+    color: rgb(243, 36, 36);
+}
+/* AKSANHAKKINDASON */
+
+
+/* AKSANHİZMETLER */
+.bgHizmet{
+    height: 420px;
+    z-index:99;
+    position: relative;
+    background-image: url(https://aksan.av.tr/Photos/PageContent/thumbs/a42e67fa.jpg);
+    background-size: cover;
+}
+.degiskenColor{
+    background: #020a20 !important;
+    position: absolute;
+    height: 420px;
+    width: 100%;
+    opacity: .7;
+    z-index: -99;
+}
+.degiskenColorHzm{
+    background: #020a20 !important;
+    position: absolute;
+    height: 510px;
+    width: 100%;
+    opacity: .7;
+    z-index: -99;
+}
+.degiskenColorTkm{
+    background: #020a20 !important;
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    opacity: .7;
+    z-index: -99;
+}
+.aksanHzmYazi span{
+    display: inline-block;
+    margin-top: 1.1rem;
+}
+.aksanHzmYazi span a{
+    font-size: 1.2rem;
+    padding: .4rem 1.1rem;
+    color: gray;
+    border-radius: .1rem;
+    border-bottom: 1px solid white;
+    transition: 1s;
+}
+.aksanHzmYazi span a:hover{
+    background-color: white;
+    color: black;
+}
+/* AKSANHİZMETLERSON */
+
+
+/* AKSANBLOGPAYLAŞIMLARI */
+
+.card{
+    padding: 1rem;
+    border: none;
+}
+.cardRenk:hover{
+    color: #990033!important;
+    transition: 1s;
+}
+.cardFont{
+    font-size: 13px;
+    color: #a1a1a1;
+}
+.cardFont a{
+    color: #a1a1a1;
+    transition: 1s;
+    text-decoration: none;
+}
+.cardFont a:hover{
+    text-decoration: underline;
+    color: #202020;
+}
+/* AKSANBLOGPAYLAŞIMLARISON */
+
+
+/* AKSANFOOTER */
+footer{
+    background-color: #020a20!important;
+    font-weight: 500;
+    font-size: 11px;
+
+}
+.footerP0{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+li{
+    list-style-type: none;
+}
+.footerP0 a{
+    color: #ffffff;
+    display: inline-block;
+    transition: .5s;
+}
+.footerP0 a:hover{
+    color: rgb(138, 134, 134)!important ;
+}
+.footerP0 li{
+    margin-top: .5rem;
+
+}
+.dInline{
+    display: inline;
+    padding-bottom: 3px;
+}
+
+.hover:hover{
+    transition: .2s;
+    background-color: #ffffff;
+    color: black!important;
+}
+.social i:hover{
+    color: #9e9b9b!important;
+}
+.social ul{
+    width: 50%;
+}
+
+/**************** AKSANFOOTERSON **************************/
+
+.teamTitle{
+    padding: 5rem 0;
+}
+
+.leftMenu ul{
+    list-style: none;
+}
+
+.leftMenu ul li{
+    margin-top: .5rem;
+}
+.leftMenu ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    transition: .35s;
+}
+
+.leftMenu ul li a:hover{
+    color: #990033;
+}
+
+.leftMenu ul li:first-child a{
+    color: #990033;
+}
+
+.search input,select{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.searchBtn{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(43, 41, 54);
+    padding: .3rem .8rem;
+}
+
+.searchBtn:hover{
+    background-color: rgb(43, 41, 54);
+    color: white;
+}
+
+.teamCard img{
+    filter: grayscale(1);
+}
+
+.teamCard:hover img{
+    filter: grayscale(0);
+}
+
+/***********************TAKİM.HTML*************************/
+
+.tum a{
+    color:#a1a1a1;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.teamImg{
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    background-image: url(https://aksan.av.tr/Photos/PageImage/thumbs/cb3864b4.jpg);
+    z-index:99;
+}
+.btn i{
+    margin-top: 5px;
+}
+.degiskenColor input:focus{
+    border: none!important;
+    outline: none;
+ 
+}
+.alphabet a{
+    padding: 3px;
+}
+
+.colWid{
+   max-width: 250px;
+}
+.cardImg {
+    position: relative;
+}
+.cardImg img{
+    width: 100%;
+    background-color: #202020;
+    background-size: cover;
+}
+ 
+.fotoArkaPln{
+    width: 100%;
+    height: 100%;
+    background-color: #020a20;
+    position: absolute;
+    z-index: 99;
+    opacity: 0.2;
+ }
+ .colWid{
+    padding: 1rem;
+ }
+ .uyg a{
+    color: #7e7373;
+    font-weight: 700;
+    transition: .4s;
+ }
+ .uyg a:hover{
+     font-weight: 700;
+    color: #990033;
+ }
+
+
+/************* HİZMETLERİMİZ.HTML *************/
+
+.imgHizmetler{
+    height: 500px;
+    z-index:99;
+    background-image: url(https://aksan.av.tr/Photos/PageContent/thumbs/771e046a.jpg);
+    background-size: cover;
+    position: relative;
+}
+.dahaFaz a{
+    color: #202020;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: .3s;
+}
+.dahaFaz li{
+    margin-top: .5rem;
+}
+.dahaFaz a:hover{
+    color: #420218;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1720px){
+    .h912{
+        height: 750px;
+        background: transparent;
+    }
+    /* .degiskenColor{
+        height: ;
+    } */
+}
+@media only screen and (max-width: 1420px){
+    .h912{
+        height: 500px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1120px) {
+    .colWid{
+        max-width: 200px;
+     }
+     .speConta{
+        width: 95%!important;
+     }
+     .h912{
+        height: 350px;
+    }
+    /* .bgmain{
+    max-height: 600px;
+
+    } */
+  }
+    @media only screen and (max-width: 855px) {
+    .h912{
+        height: 350px;
+    }
+    .dispNone{
+        display: none!important;
+    }
+  } 
+ 
+ @media only screen and (max-width: 768px) {
+    .w7{
+        width: 90%;
+    }
+    .footerParent{
+        text-align: center;
+        width: 95%!important;
+    }
+    footer *{
+        padding: 0;
+        margin: 0;
+    }
+    .dNone7{
+        display: none!important;
+    }
+    .tAli7{
+        text-align: center;
+        justify-content: center;
+    }
+    .social ul{
+        width: 75%;
+        margin: auto;
+    }
+    .imgHeight3{
+        max-height: 300px;
+    }
+    .bold{
+        font-weight:500 ;
+        font-size: 14px;
+    }
+    .res{
+        font-weight:500 ;
+        font-size: 14px;
+    }
+    .h500{
+        height: 300px!important;
+    }
+    .teamImg{
+        max-height: 300px;
+    }
+    .tum{
+        text-align: center;
+    }
+
+} 
+@media only screen and (max-width: 668px) {
+    .aksanHzmYazi{
+        max-height:420px ;
+
+    }
+    /* .degiskenColor{
+        max-height:420px ;
+    } */
+    .hakkinda {
+      width: 85%!important;
+
+    }
+    .aksanHzmYazi {
+        width: 85%!important;
+  
+      }
+      
+      
+
+
+  
+    .card7{
+        display: block;
+        }
+    .colWid{
+        max-width: 100%!important;
+        margin: auto;
+    }
+}    
+@media only screen and (max-width: 500px) {
+    .akBlogh4 h4{
+        margin-top: 1.5rem;
+        margin-bottom: 0px!important;
+    }
+    
+    
+  }
+  @media only screen and (max-width: 420px) {
+    .h912{
+        height: 250px;
+    }
+    
+  } 
